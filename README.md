@@ -2,7 +2,7 @@
   <img src="assets/logo.png" alt="Logo" width="250" height="auto" />
 </p>
 
-# We’re Hiring! :tada::tada::tada:
+# We’re Hiring! 🎉🎉🎉
 
 Are you an expert Ionic developer based in the United States or Canada? Like solving complex challenges? If yes, we should talk!
 
