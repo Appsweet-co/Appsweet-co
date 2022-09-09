@@ -212,6 +212,18 @@ const data = await getData(url).catch(() => []);
 formatData();
 ```
 
+### Strict Equality
+
+Use [Strict Equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#strict_equality_using) to compare values. [Loose Equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#loose_equality_using) can lead to unwanted side effects.
+
+```ts
+// Good ✔
+const result = (foo === bar) ? baz : baff;
+
+// Avoid ✘
+const result = (foo == bar) ? baz : baff;
+```
+
 ## CSS
 
 Coming soon
