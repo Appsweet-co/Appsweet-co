@@ -52,9 +52,7 @@ private getNotificationSettings(response: any) {
 }
 ```
 
-#### Nominal Types
-
-<!-- We store all Nominal Types as [declaration files](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html) in the [`src/types/`](src/types) folder. Add new files and types as needed. -->
+### Nominal Types
 
 Nominal Types add symantic meaning to what would otherwise be a generic type. This makes it easy to tell the difference between things like timestamps and UUIDs when reading and writing code.
 
@@ -81,7 +79,6 @@ Foo === Bar
 ```
 
 :dart: ***PRO TIP: See these articles to learn more about [Flexible Nominal Types](https://spin.atomicobject.com/2018/01/15/typescript-flexible-nominal-typing/) and [Strict Nominal Types](https://www.typescriptlang.org/play#example/nominal-typing).***
-
 
 ## CSS
 
