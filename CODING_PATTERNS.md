@@ -224,6 +224,18 @@ const result = (foo === bar) ? baz : baff;
 const result = (foo == bar) ? baz : baff;
 ```
 
+### Short-Circuit Evaluation
+
+Use [Short-Circuit Evaluation](https://www.educative.io/answers/what-are-javascript-short-circuiting-operators) to avoid executing unnecessary code.
+
+```ts
+// Good ✔
+const valid = hasUppercase(password) && hasNumber(password);
+
+// Avoid ✘
+const valid = [hasUppercase(password), hasNumber(password)].every(isTrue);
+```
+
 ## CSS
 
 Coming soon
