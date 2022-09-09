@@ -152,6 +152,26 @@ const add = (x) => x + magicNumberFromSomewhere;
 const add = () => magicNumberFromSomewhere + magicNumberFromSomewhereElse;
 ```
 
+### Fallback First, Data Last
+
+Passing data as the [last argument](https://dev.to/richytong/practical-functional-programming-in-javascript-data-last-1gjo) of a function is great for piping and currying, but TypeScript's typing system works best when we pass in data as the [first argument](https://basarat.gitbook.io/typescript/type-system/type-inference).
+
+Consider passing a fallback value as the first argument and actual data as the last.
+
+```ts
+// GOOD ✔
+const applyOr = (fallback, data, fn) => fn(data) ?? fallback;
+
+// GOOD ✔
+const applyOr = (fallback) => (fn) => (data) => fn(data) ?? fallback;
+
+// AVOID ✘
+const applyOr = (data, fallback, fn) => fn(data) ?? fallback;
+
+// AVOID ✘
+const applyOr = (fn) => (data) => (fallback) => fn(data) ?? fallback;
+```
+
 ## CSS
 
 Coming soon
