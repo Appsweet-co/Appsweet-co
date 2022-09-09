@@ -80,6 +80,43 @@ Foo === Bar
 
 :dart: ***PRO TIP: See these articles to learn more about [Flexible Nominal Types](https://spin.atomicobject.com/2018/01/15/typescript-flexible-nominal-typing/) and [Strict Nominal Types](https://www.typescriptlang.org/play#example/nominal-typing).***
 
+### Constant Objects
+
+Use [Constant Objects](https://www.typescriptlang.org/docs/handbook/enums.html#objects-vs-enums) instead of Enums. Use [String Enums](https://www.typescriptlang.org/docs/handbook/enums.html#string-enums) if needed.
+
+```ts
+// Best ✔✔
+export const CONFIG = {
+  FOO: 'FOO',
+  BAR: 'BAR'
+} as const;
+
+// Good ✔
+export enum Config {
+  Foo = 'Foo',
+  Bar = 'Bar'
+}
+
+// Avoid ✘
+export enum Config {
+  Foo,
+  Bar
+}
+
+// Avoid ✘
+export const enum Config {
+  Foo,
+  Bar
+}
+
+// Avoid ✘
+export const enum Config {
+  Foo = 'Foo',
+  Bar = 'Bar'
+}
+```
+
+
 ## CSS
 
 Coming soon
