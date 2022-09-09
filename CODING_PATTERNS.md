@@ -198,6 +198,20 @@ const applyOr = (data, fallback, fn) => fn(data) ?? fallback;
 const applyOr = (fn) => (data) => (fallback) => fn(data) ?? fallback;
 ```
 
+### Function Expressions
+
+Functions should always [return a value](#pure-functions). Function statements don't return values and make code hard to work with. Use function statements strategically.
+
+```ts
+// Good ✔
+const data = await getData(url).catch(() => []);
+const formatted = format(data);
+
+// Avoid ✘
+const data = await getData(url).catch(() => []);
+formatData();
+```
+
 ## CSS
 
 Coming soon
