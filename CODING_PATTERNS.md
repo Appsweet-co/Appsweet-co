@@ -116,6 +116,23 @@ export const enum Config {
 }
 ```
 
+### Immutable Data
+
+Mutated data is hard to work with. Use [immutable data](https://en.wikipedia.org/wiki/Immutable_object) instead.
+
+```ts
+// GOOD ✔
+const listA = [ 1, 2, 3, 0, 4, 5 ];
+const listB = [ ...listA, 6, 7, 8 ];
+
+// GOOD ✔
+const listA = [ 1, 2, 3, 0, 4, 5 ];
+const listB = listA.concat([ 6, 7, 8 ]);
+
+// AVOID ✘
+const listA = [ 1, 2, 3, 0, 4, 5 ];
+listA.push(6, 7, 8);
+```
 
 ## CSS
 
