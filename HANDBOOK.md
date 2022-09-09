@@ -2,7 +2,7 @@
   <img src="assets/logo.png" alt="Appsweet Logo" width="250" height="auto" />
 </p>
 
-<h1 align="center">Appsweet Handbook</h1>
+<h1 align="center">Handbook</h1>
 
 ## About Appsweet
 
