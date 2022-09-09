@@ -152,15 +152,41 @@ const add = (x) => x + magicNumberFromSomewhere;
 const add = () => magicNumberFromSomewhere + magicNumberFromSomewhereElse;
 ```
 
+### Parameter Defaults
+
+Set defaults for any function arguments with a single common value.
+
+```ts
+// Good ✔
+const api = (endpoint, path = "foo/bar/baz") => `${path}/${endpoint}`;
+
+// Avoid ✘
+const api = (endpoint, path?) => path ? `${path}/${endpoint}` : `foo/bar/baz/${endpoint}`;
+```
+
+### Graceful Fallbacks
+
+Return fallbacks instead of throwing errors or exceptions.
+
+```ts
+// Good ✔
+const data = await getData(url).catch(() => []);
+
+// Avoid ✘
+const data = await getData(url).catch(msg => console.error(msg));
+```
+
+:dart: ***PRO TIP: Use [Type Assertions](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions) to set the correct return type for fallbacks.***
+
 ### Fallback First, Data Last
 
 Passing data as the [last argument](https://dev.to/richytong/practical-functional-programming-in-javascript-data-last-1gjo) of a function is great for piping and currying, but TypeScript's typing system works best when we pass in data as the [first argument](https://basarat.gitbook.io/typescript/type-system/type-inference).
 
-Consider passing a fallback value as the first argument and actual data as the last.
+Consider passing a [fallback value](#graceful-fallbacks) as the first argument and actual data as the last.
 
 ```ts
 // GOOD ✔
-const applyOr = (fallback, data, fn) => fn(data) ?? fallback;
+const applyOr = (fallback, fn, data) => fn(data) ?? fallback;
 
 // GOOD ✔
 const applyOr = (fallback) => (fn) => (data) => fn(data) ?? fallback;
