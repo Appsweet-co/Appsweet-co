@@ -134,6 +134,24 @@ const listA = [ 1, 2, 3, 0, 4, 5 ];
 listA.push(6, 7, 8);
 ```
 
+### Pure Functions
+
+[Pure Functions](https://en.wikipedia.org/wiki/Pure_function) are easy to test and work well with immutable data. They're also [referentially transparent](https://www.yld.io/blog/the-not-so-scary-guide-to-functional-programming/) and easy for JavaScript engines to [optimize](https://v8.dev/blog/turbofan-jit).
+
+```ts
+// GOOD ✔
+const add = (x, y) => y + x;
+
+// GOOD ✔
+const add = (x) => (y) => y + x;
+
+// AVOID ✘
+const add = (x) => x + magicNumberFromSomewhere;
+
+// AVOID ✘
+const add = () => magicNumberFromSomewhere + magicNumberFromSomewhereElse;
+```
+
 ## CSS
 
 Coming soon
