@@ -248,6 +248,10 @@ const getNextPage = (current) => (current === 'suggested') ? 'homepage' : 'sugge
 const next = (c) => (c === 'sp') ? 'hp' : 'sp';
 ```
 
+### Private Members, Local Variables
+
+Use [private class members](https://www.typescriptlang.org/docs/handbook/2/classes.html#private) and [local variables](https://developer.mozilla.org/en-US/docs/Glossary/Local_variable) when possible. This makes it easy to [delete dead code](#delete-dead-code).
+
 ## CSS
 
 Coming soon
