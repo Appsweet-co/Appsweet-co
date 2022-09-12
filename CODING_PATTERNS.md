@@ -252,6 +252,28 @@ const next = (c) => (c === 'sp') ? 'hp' : 'sp';
 
 Use [private class members](https://www.typescriptlang.org/docs/handbook/2/classes.html#private) and [local variables](https://developer.mozilla.org/en-US/docs/Glossary/Local_variable) when possible. This makes it easy to [delete dead code](#delete-dead-code).
 
+### Use Doc Blocks
+
+Consider adding [JSDocs](https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html) for your public APIs in addition to [type annotations](#type-driven-development). 
+
+Doc blocks are a good [developer experience](https://medium.com/swlh/what-is-dx-developer-experience-401a0e44a9d9). They help devs understand what an API does and why they might use it.
+
+Also consider adding [`@example`] use cases in your doc blocks.
+
+```ts
+/**
+ * Returns the sum of two numbers. Same as `y + x`.
+ *
+ * @example
+ *
+ * ```ts
+ * add(3)(6);
+ * // => 9
+ * ```
+ */
+export const add = (x: number) => (y: number) => y + x;
+```
+
 ## CSS
 
 Coming soon
