@@ -121,15 +121,15 @@ export const enum Config {
 Mutated data is hard to work with. Use [immutable data](https://en.wikipedia.org/wiki/Immutable_object) instead.
 
 ```ts
-// GOOD ✔
+// Best ✔✔
 const listA = [ 1, 2, 3, 0, 4, 5 ];
 const listB = [ ...listA, 6, 7, 8 ];
 
-// GOOD ✔
+// Good ✔
 const listA = [ 1, 2, 3, 0, 4, 5 ];
 const listB = listA.concat([ 6, 7, 8 ]);
 
-// AVOID ✘
+// Avoid ✘
 const listA = [ 1, 2, 3, 0, 4, 5 ];
 listA.push(6, 7, 8);
 ```
@@ -139,16 +139,16 @@ listA.push(6, 7, 8);
 [Pure Functions](https://en.wikipedia.org/wiki/Pure_function) are easy to test and work well with immutable data. They're also [referentially transparent](https://www.yld.io/blog/the-not-so-scary-guide-to-functional-programming/) and easy for JavaScript engines to [optimize](https://v8.dev/blog/turbofan-jit).
 
 ```ts
-// GOOD ✔
+// Good ✔
 const add = (x, y) => y + x;
 
-// GOOD ✔
+// Good ✔
 const add = (x) => (y) => y + x;
 
-// AVOID ✘
+// Avoid ✘
 const add = (x) => x + magicNumberFromSomewhere;
 
-// AVOID ✘
+// Avoid ✘
 const add = () => magicNumberFromSomewhere + magicNumberFromSomewhereElse;
 ```
 
@@ -185,16 +185,16 @@ Passing data as the [last argument](https://dev.to/richytong/practical-functiona
 Consider passing a [fallback value](#graceful-fallbacks) as the first argument and actual data as the last.
 
 ```ts
-// GOOD ✔
+// Good ✔
 const applyOr = (fallback, fn, data) => fn(data) ?? fallback;
 
-// GOOD ✔
+// Good ✔
 const applyOr = (fallback) => (fn) => (data) => fn(data) ?? fallback;
 
-// AVOID ✘
+// Avoid ✘
 const applyOr = (data, fallback, fn) => fn(data) ?? fallback;
 
-// AVOID ✘
+// Avoid ✘
 const applyOr = (fn) => (data) => (fallback) => fn(data) ?? fallback;
 ```
 
@@ -230,10 +230,10 @@ Use [Short-Circuit Evaluation](https://www.educative.io/answers/what-are-javascr
 
 ```ts
 // Good ✔
-const valid = hasUppercase(password) && hasNumber(password);
+const validated = hasUppercase(password) && hasNumber(password);
 
 // Avoid ✘
-const valid = [hasUppercase(password), hasNumber(password)].every(isTrue);
+const validated = [hasUppercase(password), hasNumber(password)].every(isTrue);
 ```
 
 ### Descriptive And Meaningful Phrases
@@ -241,10 +241,10 @@ const valid = [hasUppercase(password), hasNumber(password)].every(isTrue);
 Abbreviations are hard to work with. Make your code easy to read. Use [Descriptive And Meaningful Phrases](https://medium.com/mutual-of-omaha-digital-experience-and-design-team/damp-programming-reviving-readability-d84647cc5b2e) when possible.
 
 ```ts
-// GOOD ✔
+// Good ✔
 const getNextPage = (current) => (current === 'suggested') ? 'homepage' : 'suggested';
 
-// AVOID ✘
+// Avoid ✘
 const next = (c) => (c === 'sp') ? 'hp' : 'sp';
 ```
 
