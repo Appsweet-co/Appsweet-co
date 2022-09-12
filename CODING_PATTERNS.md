@@ -236,6 +236,18 @@ const valid = hasUppercase(password) && hasNumber(password);
 const valid = [hasUppercase(password), hasNumber(password)].every(isTrue);
 ```
 
+### Descriptive And Meaningful Phrases
+
+Abbreviations are hard to work with. Make your code easy to read. Use [Descriptive And Meaningful Phrases](https://medium.com/mutual-of-omaha-digital-experience-and-design-team/damp-programming-reviving-readability-d84647cc5b2e) when possible.
+
+```ts
+// GOOD ✔
+const getNextPage = (current) => (current === 'suggested') ? 'homepage' : 'suggested';
+
+// AVOID ✘
+const next = (c) => (c === 'sp') ? 'hp' : 'sp';
+```
+
 ## CSS
 
 Coming soon
