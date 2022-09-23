@@ -258,7 +258,7 @@ Consider adding [JSDocs](https://www.typescriptlang.org/docs/handbook/jsdoc-supp
 
 Doc blocks are a good [developer experience](https://medium.com/swlh/what-is-dx-developer-experience-401a0e44a9d9). They help devs understand what an API does and why they might use it.
 
-Also consider adding [`@example`] use cases in your doc blocks.
+Also consider adding [`@example`](https://jsdoc.app/tags-example.html) use cases in your doc blocks.
 
 ```ts
 /**
