@@ -212,6 +212,40 @@ const data = await getData(url).catch(() => []);
 formatData();
 ```
 
+### Conditional (Ternary) Operators
+
+Use [Conditional (Ternary) Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator) instead of nested `if...else` statements.
+
+```ts
+// Good ✔
+const getAuthenticatedPath = (endpoint) => {
+  return (endpoint === 'dashboard') ? `/user/auth/${endpoint}` : `/user/auth/account/${endpoint}`;
+}
+
+const getUnauthenticatedPath = (endpoint) => {
+  return (endpoint === 'dashboard') ? `/guest/${endpoint}` : `/guest/account/${endpoint}`;
+}
+
+const getFullPath = (endpoint, isAuthenticated) => {
+  return (isAuthenticated) ? getAuthenticatedPath(endpoint) : getUnauthenticatedPath(endpoint);
+}
+
+// Avoid ✘
+const getFullPath = (endpoint, isAuthenticated) => {
+  if (isAuthenticated) {
+    if (endpoint === 'dashboard') {
+      return `/user/auth/${endpoint}`;
+    } 
+    
+    if (endpoint !== 'dashboard') {
+        return `/user/auth/account/${endpoint}`;
+    }
+  }
+    
+  return `/guest/${endpoint}`;
+}
+```
+
 ### Strict Equality
 
 Use [Strict Equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#strict_equality_using) to compare values. [Loose Equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness#loose_equality_using) can lead to unwanted side effects.
