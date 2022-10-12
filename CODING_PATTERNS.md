@@ -14,6 +14,10 @@ Code comments are an [anti-pattern](https://kentcdodds.com/blog/please-dont-comm
 
 Duplicating code is better than abstracting code in the wrong way. See [this article](https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction) for why.
 
+### Avoid Sacred Code
+
+Blindly duplicating code leads to [The Wrong Abstraction](#avoid-the-wrong-abstraction). Always improve the code to meet your needs.
+
 ### Avoid Code Comments
 
 Code comments are an [anti-pattern](https://kentcdodds.com/blog/please-dont-commit-commented-out-code). Use [Descriptive and Meaningful Phrases](#descriptive-and-meaningful-phrases) instead.
