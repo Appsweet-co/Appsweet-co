@@ -332,6 +332,113 @@ $scale-md: 1rem;
 $scale-lg: 2rem;
 ```
 
+### Utility First
+
+Use [utility classes](https://adamwathan.me/css-utility-classes-and-separation-of-concerns/) and [style-based utilities](https://www.bonsaicss.com/#style-based-utilities) when possible. Utilities are easy to reuse. They do one thing in the same way every time with no side effects. They keep the CSS specificity flat. They also eliminate the need to invent new names.
+
+```css
+/* GOOD ✔ */
+.display-block {
+  display: block;
+}
+
+/* GOOD ✔ */
+.padding-block-lg {
+  padding-block-end: var(--space-lg);
+  padding-block-start: var(--space-lg);
+}
+
+/* GOOD ✔ */
+[style*="--font-size"] {
+  font-size: var(--font-size);
+}
+
+/* AVOID ✘ */
+.callout {
+  display: block;
+  padding-block-end: calc(--space-lg);
+  padding-block-start: calc(--space-lg);
+  font-size: var(--font-size);
+}
+
+#### Writing Utilities
+
+Utilities take the form of [class selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors) and variables assigned to the [`style` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style).
+
+- Use CSS Classes to limit options to a small number of known values. Padding, Margin, and Text Alignment are good use cases for class names.
+
+- Use CSS Variables to widen options to a large number of unknown values. Max Width, Font Size, and Line Height are good use cases for variable names.
+
+### Relative Units
+
+[Absolute units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#absolute_length_units) make responsive design hard. Use relative units instead.
+
+```css
+/* Good ✔ */
+:root {
+  --scale-sm: 0.5rem;
+  --scale-md: 1rem;
+  --scale-lg: 2rem;
+}
+
+/* Avoid ✘ */
+:root {
+  --scale-sm: 8px;
+  --scale-md: 16px;
+  --scale-lg: 32px;
+}
+```
+
+### Logical Properties
+
+Use [Logical Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties) in place of directions‐relative equivalents when possible. This gives better support for right-to-left languages.
+
+// Good ✔
+.padding-inline-sm {
+  padding-inline-end: var(--scale-sm);
+  padding-inline-start: var(--scale-sm);
+}
+
+.padding-block-sm {
+  padding-block-end: var(--scale-sm);
+  padding-block-start: var(--scale-sm);
+}
+
+// Avoid ✘
+.padding-horizontal-sm {
+  padding-left: var(--scale-sm);
+  padding-right: var(--scale-sm);
+}
+
+.padding-vertical-sm {
+  padding-bottom: var(--scale-sm);
+  padding-top: var(--scale-sm);
+}
+```
+
+### CSS Specificity Hack
+
+Avoid [ID selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors) and the [`!important` rule](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity#the_!important_exception). These are code smells and indicate a deeper problem.
+
+Use [Harry Roberts's Specificity Hack](https://csswizardry.com/2014/07/hacks-for-dealing-with-specificity/) when needed. Refactoring the code to flatten CSS specificity is always your best option.
+
+```css
+/* Good ✔ */
+.text-align-center.text-align-center.text-align-center {
+  text-align: center;
+}
+
+/* Avoid ✘ */
+#text-align-center {
+  text-align: center;
+}
+
+/* Avoid ✘ */
+.text-align-center {
+  text-align: center !important;
+}
+```
+
 ## HTML
 
 Coming soon
