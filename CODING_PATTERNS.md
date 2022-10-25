@@ -360,6 +360,7 @@ Use [utility classes](https://adamwathan.me/css-utility-classes-and-separation-o
   padding-block-start: calc(--space-lg);
   font-size: var(--font-size);
 }
+```
 
 #### Writing Utilities
 
@@ -393,6 +394,7 @@ Utilities take the form of [class selectors](https://developer.mozilla.org/en-US
 
 Use [Logical Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties) in place of directions‐relative equivalents when possible. This gives better support for right-to-left languages.
 
+```css
 // Good ✔
 .padding-inline-sm {
   padding-inline-end: var(--scale-sm);
