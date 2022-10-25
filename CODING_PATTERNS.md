@@ -314,7 +314,23 @@ export const add = (x: number) => (y: number) => y + x;
 
 ## CSS
 
-Coming soon
+### Native CSS
+
+Use native CSS when possible. Native [functions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) and [variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) are easier to override than variables stored in preprocessors like Sass.
+
+```scss
+/* Good ✔ */
+:root {
+  --scale-sm: 0.5rem;
+  --scale-md: 1rem;
+  --scale-lg: 2rem;
+}
+
+/* Avoid ✘ */
+$scale-sm: 0.5rem;
+$scale-md: 1rem;
+$scale-lg: 2rem;
+```
 
 ## HTML
 
