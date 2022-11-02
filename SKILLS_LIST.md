@@ -1,0 +1,235 @@
+# Skills List
+
+## Top Skills
+
+Angular + Ionic
+HTML + CSS
+TypeScript
+Immutable Data
+Functional Programming
+
+## All Skills
+
+- Adobe Illustrator
+- Adobe InDesign
+- Adobe Photoshop
+- Agile
+- AJAX
+- Akamai
+- Algebraic Data Types (ADT)
+- Amazon Web Service (AWS)
+- Android OS
+- Angular
+- Anvil
+- Apache
+- Architecture Decision Records (ADR)
+- Asana
+- AsciiDoc
+- Asynchronous Functions
+- Atomic Design
+- Auth0
+
+- Bash Shell 
+- Behat 
+- Behavior Driven Design (BDD)
+- BEM Syntax
+- Bitbucket
+- Blade
+- Bonsai CSS
+- Bootstrap CSS
+- Bower
+- Browserify
+
+- Callbacks
+- Capacitor
+- Cargo
+- CentOS Linux
+- Chrome DevTools 
+- CodeShip
+- CoffeeScript
+- Commander.js 
+- Compass
+- Conditionizr.js
+- Cookies
+- Cordova
+- CouchDB
+- CSON
+
+- date-fns
+- Debian Linux
+- Docker
+- Docker Compose
+- Dropbox
+
+- EditorConfig
+- ESLint
+
+- Feature Flags
+- Feature Toggles
+- Fedora Linux
+- Firebug 
+- Foundation CSS
+- Fountain
+- FTP
+- Functional Programming (FP)
+
+- Gherkin 
+- Git
+- Github
+- GitHub Actions
+- GitHub Flow
+- GitLab
+- Google Drive
+- Google PageSpeed 
+- Gradle
+- Grunt
+- Gulp
+
+- Handlebars
+- HipChat
+- Homebrew
+- HTML5 Boilerplate
+
+- Immutable Data
+- IndexedDB
+- Inuit CSS
+- Ionic
+- iOS
+
+- Jade
+- Jasmine 
+- JavaScript
+- Jekyll
+- Jest 
+- Jira
+- jQuery
+- JSCS
+- JSDoc
+- JSHint
+- JSON
+- JSON Schema
+
+- Kali Linux
+- Karma 
+- Knockout.js
+- Kotlin
+
+- Lambda Functions
+- Laravel 
+- Less CSS
+- Liquid
+- LocalStorage
+
+- macOS
+- Makefile
+- Marionette.js
+- Markdown
+- Mercurial
+- Mint Linux
+- Mobx
+- Mocha 
+- Modernizr.js
+- Moment.js
+- Mustache
+- MySQL
+- Nginx
+- Node.js 
+- npm
+
+- Observables
+- Oracle
+- OS X
+
+- Phantom.js 
+- php 
+- PHPUnit 
+- PlantUML
+- Postman
+- Postman 
+- PouchDB
+- Progressive Web Apps
+- Promises
+- Protractor 
+- Puppeteer 
+- Pure CSS
+- PWA
+- Python 
+
+- Query Strings
+
+- Read the Docs
+- Redis
+- Redux
+- Regex
+- Regular Expressions
+- Require.js
+- RESTful API
+- reStructuredText
+- Robot3
+- RubyGems
+- Rust
+
+- SAP HANA
+- Sass
+- Scrum
+- Scss
+- Selenium Webdriver 
+- Service Workers
+- SessionStorage
+- SFTP
+- Shell Scripting 
+- Shopify
+- Sketch App
+- Slack
+- SMACCS
+- Smarty
+- SourceTree
+- Sphinx
+- Squarespace
+- Square
+- SSH
+- Stylus
+- Swagger
+- SystemJS
+
+- Tailwind CSS
+- Technical Debt Records (TDR)
+- Test Driven Design (TDD)
+- Tmux
+- Toggl
+- TOML
+- Travis CI
+- Trello
+- True-Myth
+- TSLint
+- Tumblr
+- Twig
+- TypeScript
+
+- Ubuntu Linux
+- UI Bootstrap
+- URL Query Strings
+
+- Vagrant
+- Vimscript 
+
+- Web API
+- Web Workers
+- Webpack
+- WebPageTest.org
+- Wordpress
+
+- YAML
+- Yargs
+- Yarn
+- Yeoman
+
+- Zone.js
+- Zoom
+- Zsh Shell
+
+## Experimenting With
+
+- Deno
+- Dhall
+- Haskell
