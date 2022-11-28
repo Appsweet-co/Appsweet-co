@@ -2,11 +2,11 @@
 
 ## Top Skills
 
-Angular + Ionic
-HTML + CSS
-TypeScript
-Immutable Data
-Functional Programming
+- Angular + Ionic
+- HTML + CSS
+- TypeScript
+- Immutable Data
+- Functional Programming
 
 ## All Skills
 
@@ -29,6 +29,8 @@ Functional Programming
 - Atomic Design
 - Auth0
 
+---
+
 - Bash Shell 
 - Behat 
 - Behavior Driven Design (BDD)
@@ -39,6 +41,8 @@ Functional Programming
 - Bootstrap CSS
 - Bower
 - Browserify
+
+---
 
 - Callbacks
 - Capacitor
@@ -55,14 +59,20 @@ Functional Programming
 - CouchDB
 - CSON
 
+---
+
 - date-fns
 - Debian Linux
 - Docker
 - Docker Compose
 - Dropbox
 
+---
+
 - EditorConfig
 - ESLint
+
+---
 
 - Feature Flags
 - Feature Toggles
@@ -72,6 +82,8 @@ Functional Programming
 - Fountain
 - FTP
 - Functional Programming (FP)
+
+---
 
 - Gherkin 
 - Git
@@ -85,16 +97,22 @@ Functional Programming
 - Grunt
 - Gulp
 
+---
+
 - Handlebars
 - HipChat
 - Homebrew
 - HTML5 Boilerplate
+
+---
 
 - Immutable Data
 - IndexedDB
 - Inuit CSS
 - Ionic
 - iOS
+
+---
 
 - Jade
 - Jasmine 
@@ -109,16 +127,22 @@ Functional Programming
 - JSON
 - JSON Schema
 
+---
+
 - Kali Linux
 - Karma 
 - Knockout.js
 - Kotlin
+
+---
 
 - Lambda Functions
 - Laravel 
 - Less CSS
 - Liquid
 - LocalStorage
+
+---
 
 - macOS
 - Makefile
@@ -136,9 +160,13 @@ Functional Programming
 - Node.js 
 - npm
 
+---
+
 - Observables
 - Oracle
 - OS X
+
+---
 
 - Phantom.js 
 - php 
@@ -155,7 +183,11 @@ Functional Programming
 - PWA
 - Python 
 
+---
+
 - Query Strings
+
+---
 
 - Read the Docs
 - Redis
@@ -168,6 +200,9 @@ Functional Programming
 - Robot3
 - RubyGems
 - Rust
+- RxJS
+
+---
 
 - SAP HANA
 - Sass
@@ -192,6 +227,8 @@ Functional Programming
 - Swagger
 - SystemJS
 
+---
+
 - Tailwind CSS
 - Technical Debt Records (TDR)
 - Test Driven Design (TDD)
@@ -206,12 +243,18 @@ Functional Programming
 - Twig
 - TypeScript
 
+---
+
 - Ubuntu Linux
 - UI Bootstrap
 - URL Query Strings
 
+---
+
 - Vagrant
 - Vimscript 
+
+---
 
 - Web API
 - Web Workers
@@ -219,10 +262,14 @@ Functional Programming
 - WebPageTest.org
 - Wordpress
 
+---
+
 - YAML
 - Yargs
 - Yarn
 - Yeoman
+
+---
 
 - Zone.js
 - Zoom
