@@ -2,11 +2,14 @@
 
 ## Top Skills
 
-- Angular + Ionic
-- HTML + CSS
-- TypeScript
-- Immutable Data
+- Angular
+- CSS
 - Functional Programming
+- HTML
+- Immutable Data
+- Ionic
+- RxJS
+- TypeScript
 
 ## All Skills
 
