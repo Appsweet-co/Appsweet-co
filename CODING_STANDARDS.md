@@ -2,7 +2,7 @@
   <img src="assets/logo.png" alt="Appsweet Logo" width="250" height="auto" />
 </p>
 
-<h1 align="center">Coding Patterns</h1>
+<h1 align="center">Coding Standards</h1>
 
 ## General
 
