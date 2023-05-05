@@ -6,6 +6,7 @@
 - CSS + HTML
 - TypeScript
 - Functional Programming
+- Reactive Programming
 - Immutable Data
 - RxJS
 
