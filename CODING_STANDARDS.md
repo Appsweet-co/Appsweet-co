@@ -93,7 +93,7 @@ Use [const assertions](https://www.typescriptlang.org/docs/handbook/release-note
 const CONFIG = {
   FOO: 'FOO',
   BAR: 'BAR'
-} as const;
+} as const satisfies Config;
 
 // Good ✔
 enum Config {
@@ -126,8 +126,8 @@ Mutated data is hard to work with. Use [immutable data](https://en.wikipedia.org
 
 ```ts
 // Best ✔✔
-const listA = [ 1, 2, 3, 0, 4, 5 ];
-const listB = [ ...listA, 6, 7, 8 ];
+const listA = [ 1, 2, 3, 0, 4, 5 ] as const satisfies List;
+const listB = [ ...listA, 6, 7, 8 ] as const satisfies List;
 
 // Good ✔
 const listA = [ 1, 2, 3, 0, 4, 5 ];
