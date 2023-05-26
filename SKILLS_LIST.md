@@ -9,6 +9,7 @@
 - Reactive Programming
 - Immutable Data
 - RxJS
+- Markdown
 
 ## All Skills
 
