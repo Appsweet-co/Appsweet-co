@@ -4,12 +4,12 @@
 
 - Angular + Ionic
 - CSS + HTML
-- TypeScript
 - Functional Programming
-- Reactive Programming
 - Immutable Data
-- RxJS
 - Markdown
+- RxJS / Reactive Programming
+- Type Driven Development
+- TypeScript
 
 ## All Skills
 
@@ -244,6 +244,7 @@
 - TSLint
 - Tumblr
 - Twig
+- Type Driven Development
 - TypeScript
 
 ---
