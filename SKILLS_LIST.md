@@ -66,6 +66,8 @@
 
 - date-fns
 - Debian Linux
+- Deno
+- Dhall
 - Docker
 - Docker Compose
 - Dropbox
@@ -103,6 +105,7 @@
 ---
 
 - Handlebars
+- Haskell
 - HipChat
 - Homebrew
 - HTML5 Boilerplate
@@ -281,6 +284,4 @@
 
 ## Experimenting With
 
-- Deno
-- Dhall
-- Haskell
+- Bun.sh
