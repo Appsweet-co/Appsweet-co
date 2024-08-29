@@ -289,4 +289,5 @@
 ## Experimenting With
 
 - Bun.sh
+- Rescript
 - OCamel
