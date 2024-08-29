@@ -23,6 +23,7 @@
 - Amazon Web Service (AWS)
 - Android OS
 - Angular
+- Angular Material UI
 - Anvil
 - Apache
 - Architecture Decision Records (ADR)
@@ -50,6 +51,7 @@
 - Callbacks
 - Capacitor
 - Cargo
+- CBOR
 - CentOS Linux
 - Chrome DevTools 
 - CodeShip
@@ -155,6 +157,7 @@
 - Marionette.js
 - Markdown
 - Mercurial
+- MessagePack
 - Mint Linux
 - Mobx
 - Mocha 
@@ -226,6 +229,7 @@
 - Smarty
 - SourceTree
 - Sphinx
+- Spock CSS
 - Squarespace
 - Square
 - SSH
