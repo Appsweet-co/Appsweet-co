@@ -114,6 +114,7 @@
 
 ---
 
+- ICU Message Format
 - Immutable Data
 - IndexedDB
 - Inuit CSS
