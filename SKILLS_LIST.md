@@ -45,6 +45,7 @@
 - Bootstrap CSS
 - Bower
 - Browserify
+- Bun.sh
 
 ---
 
@@ -293,6 +294,7 @@
 
 ## Experimenting With
 
-- Bun.sh
+- Luxon
+- Nobel Hashes
 - Rescript
 - OCamel
