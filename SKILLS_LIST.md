@@ -295,6 +295,7 @@
 ## Experimenting With
 
 - Luxon
-- Nobel Hashes
-- Rescript
+- Noble Hashes
 - OCamel
+- Rescript
+
