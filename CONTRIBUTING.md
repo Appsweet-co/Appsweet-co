@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="Appsweet Logo" width="250" height="auto" />
+</p>
+
 <h1 align="center">Contribution Guidelines</h1>
 
 Engineers contribute as [Code Authors](#code-authors) and [Code Reviewers](#code-reviewers). Our [Core Values](#core-values) apply to all.
