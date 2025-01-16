@@ -294,8 +294,7 @@
 
 ## Experimenting With
 
+- Dynamic Programming
 - Luxon
 - Noble Hashes
 - OCamel
-- Rescript
-
