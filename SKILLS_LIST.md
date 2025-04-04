@@ -16,6 +16,7 @@
 - Luxon
 - OCamel
 - Pico CSS
+- Tailwind CSS
 
 ## All Skills
 
@@ -251,7 +252,6 @@
 
 ---
 
-- Tailwind CSS
 - Technical Debt Records (TDR)
 - Test Driven Design (TDD)
 - Tmux
