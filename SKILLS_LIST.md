@@ -11,6 +11,12 @@
 - Type Driven Development
 - TypeScript
 
+## Experimenting With
+
+- Luxon
+- OCamel
+- Pico CSS
+
 ## All Skills
 
 - Adobe Illustrator
@@ -291,11 +297,3 @@
 - Zone.js
 - Zoom
 - Zsh Shell
-
-## Experimenting With
-
-- Dynamic Programming
-- Luxon
-- Noble Hashes
-- OCamel
-- Relational Algebra
