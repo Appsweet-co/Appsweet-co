@@ -15,6 +15,7 @@
 
 - Luxon
 - OCamel
+- Lightening CSS
 - Pico CSS
 - Tailwind CSS
 
