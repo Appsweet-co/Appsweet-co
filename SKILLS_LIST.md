@@ -11,14 +11,6 @@
 - Type Driven Development
 - TypeScript
 
-## Experimenting With
-
-- Luxon
-- OCamel
-- Lightening CSS
-- Pico CSS
-- Tailwind CSS
-
 ## All Skills
 
 - Adobe Illustrator
@@ -116,7 +108,7 @@
 ---
 
 - Handlebars
-- Haskell
+- Haskell ⭐
 - HipChat
 - Homebrew
 - HTML5 Boilerplate
@@ -157,8 +149,10 @@
 - Lambda Functions
 - Laravel 
 - Less CSS
+- Lightening CSS :alembic:
 - Liquid
 - LocalStorage
+- Luxon :alembic:
 
 ---
 
@@ -185,6 +179,7 @@
 ---
 
 - Observables
+- OCamel ⭐
 - Oracle
 - OS X
 
@@ -192,10 +187,10 @@
 
 - Phantom.js 
 - php 
-- PHPUnit 
+- PHPUnit
+- Pico CSS ⭐
 - PlantUML
 - Postman
-- Postman 
 - PouchDB
 - Progressive Web Apps
 - Promises
@@ -221,7 +216,7 @@
 - reStructuredText
 - Robot3
 - RubyGems
-- Rust
+- Rust ⭐
 - RxJS
 
 ---
@@ -253,6 +248,7 @@
 
 ---
 
+- Tailwind CSS ::alembic:
 - Technical Debt Records (TDR)
 - Test Driven Design (TDD)
 - Tmux
