@@ -23,7 +23,9 @@
 - Amazon Web Service (AWS)
 - Android OS
 - Angular
+- Angular Custom Libraries
 - Angular Material UI
+- Angular Schematics
 - Anvil
 - Apache
 - Architecture Decision Records (ADR)
