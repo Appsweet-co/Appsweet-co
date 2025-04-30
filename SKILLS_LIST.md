@@ -23,6 +23,7 @@
 - Amazon Web Service (AWS)
 - Android OS
 - Angular
+- Angualr CLI Builders
 - Angular Custom Libraries
 - Angular Material UI
 - Angular Schematics
